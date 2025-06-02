@@ -1,0 +1,79 @@
+   body{  
+     font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #74ebd5, #acb6e5);
+      height: 100vh;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+      transition: background-color 0.5s ease;
+    }
+
+    .card {
+      width: 100%;
+      max-width: 500px;
+      background: rgba(224, 255, 255, 0.95);
+      border-radius: 20px;
+      box-shadow: 0 8px 16px rgba(226, 177, 177, 0.445);
+      transition: transform 0.3s ease, background-color 0.5s ease;
+    }
+
+    .flash-low {
+      animation: flash-low 1s ease-in-out;
+    }
+
+    .flash-high {
+      animation: flash-high 1s ease-in-out;
+    }
+
+    @keyframes flash-low {
+      0% { background-color: #cceeff; }
+      100% { background-color: rgba(255,255,255,0.95); }
+    }
+
+    @keyframes flash-high {
+      0% { background-color: #ffcccc; }
+      100% { background-color: rgba(255,255,255,0.95); }
+    }
+
+    .celebrate-bg {
+      background: radial-gradient(circle, #fff4c4, #ffda8b, #ffd24d);
+    }
+
+    .confetti-celebrate {
+      animation: celebrate 1s ease-in-out forwards;
+    }
+
+    @keyframes celebrate {
+      0% { box-shadow: 0 0 0 0 rgba(255, 223, 0, 0.8); transform: scale(1); }
+      50% { box-shadow: 0 0 30px 20px rgba(255, 223, 0, 0.5); transform: scale(1.1); }
+      100% { box-shadow: 0 0 60px 30px rgba(255, 223, 0, 0); transform: scale(1); }
+    }
+
+    .gameover-bg {
+      background: linear-gradient(135deg, #2c3e50, #4ca1af);
+    }
+
+    .gameover-effect {
+      animation: gameover 1s ease-in-out forwards;
+    }
+
+    @keyframes gameover {
+      0% { box-shadow: 0 0 0 0 rgba(255, 0, 0, 0.5); transform: scale(1); }
+      50% { box-shadow: 0 0 20px 10px rgba(255, 0, 0, 0.5); transform: scale(1.05); }
+      100% { box-shadow: 0 0 40px 20px rgba(255, 0, 0, 0); transform: scale(1); }
+    }
+
+    .card h2 {
+      color: #333;
+    }
+
+    #successMessage {
+      animation: pop 0.5s ease-in-out;
+    }
+
+    @keyframes pop {
+      0% { transform: scale(0.8); opacity: 0; }
+      100% { transform: scale(1); opacity: 1; }
+    }
