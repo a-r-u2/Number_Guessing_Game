@@ -24,7 +24,7 @@ A simple and interactive web-based Number Guessing Game where players try to gue
 
 - HTML5
 - CSS3 (with animations and effects)
-- JavaScript (vanilla)
+- JavaScript 
 - Bootstrap 5 (for styling and responsive layout)
 
 ---
@@ -51,23 +51,14 @@ A simple and interactive web-based Number Guessing Game where players try to gue
 
 ---
 
-## Screenshots
-
-*(Add screenshots here showing the game in action — start screen, guessing, correct guess, and game over states.)*
-
----
-
-## License
-
-This project is open source and free to use.
-
----
 
 ## Author
-
-Created by [Your Name]
+Jalla Rohith Venkata Ram Sai Arun
+ jallarohith@gmail.com
+ Vijayawada
+ LinkedIn – JALLA RVRSARUN
 
 ---
 
-Feel free to reach out if you have questions or suggestions!
+
 
